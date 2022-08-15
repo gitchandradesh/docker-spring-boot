@@ -1,4 +1,4 @@
-mvn install
+mvn clean install
 
 
 docker build -f ./Dockerfile -t hdchandesh108/docker-spring-boot-v3 .
